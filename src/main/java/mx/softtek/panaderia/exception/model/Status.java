@@ -22,7 +22,7 @@ public class Status implements Serializable {
 	private List<AdditionalStatus> additionalStatus;
 
 	/** Atributo que contiene la informacion con respecto a severety */
-	private String severity;
+	private String severity; 
 	
 	
 }
