@@ -5,11 +5,7 @@ import java.util.List;
 
 import lombok.Getter;
 import lombok.Setter;
-/**
- * comentario de prueba
- * @author yovae
- *
- */
+
 @Getter
 @Setter
 public class Status implements Serializable {
@@ -27,6 +23,5 @@ public class Status implements Serializable {
 
 	/** Atributo que contiene la informacion con respecto a severety */
 	private String severity; 
-	
 	
 }
