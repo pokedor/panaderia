@@ -1,13 +1,14 @@
 package mx.softtek.panaderia.exception.model;
 
 import java.io.Serializable;
-import java.util.List;
 
+import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 
 @Getter
 @Setter
+@AllArgsConstructor
 public class Status implements Serializable {
 
 	private static final long serialVersionUID = -4499250020643110811L;
@@ -19,9 +20,9 @@ public class Status implements Serializable {
 	private String statusDesc;
 
 	/** Atributo que contiene la informacion con respecto a additionalStatus */
-	private List<AdditionalStatus> additionalStatus;
+	private AdditionalStatus additionalStatus;
 
 	/** Atributo que contiene la informacion con respecto a severety */
-	private String severity; 
+	private String severity;
 	
 }
