@@ -18,6 +18,10 @@ public class ControllerCreateUser implements IControllerCreateUser{
 	@Autowired
 	ICreateService create;
 
+	/***
+	 * Controller encargado de crear usuarios 
+	 * @param user bean para la entrada de un usuario
+	 */
 	@Override
 	public ResponseEntity<?> createUser(@Valid UserBean user) {
 		
