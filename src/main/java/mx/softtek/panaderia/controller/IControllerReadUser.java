@@ -9,7 +9,7 @@ import mx.softtek.panaderia.model.UserBean;
 
 public interface IControllerReadUser {
 	
-	
+	  
 	
 	
 	ResponseEntity<?> createUser(@RequestBody @Valid UserBean user );
