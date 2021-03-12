@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import mx.softtek.panaderia.model.UserBean;
-import mx.softtek.panaderia.service.CreateService;
+import mx.softtek.panaderia.service.ICreateService;
 
 @RestController
 @RequestMapping("/bread-crumbles")
@@ -16,7 +16,7 @@ public class ControllerCreateUser implements IControllerCreateUser{
 	
 	
 	@Autowired
-	CreateService create;
+	ICreateService create;
 
 	@Override
 	public ResponseEntity<?> createUser(@Valid UserBean user) {
