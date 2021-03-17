@@ -1,15 +1,18 @@
 package mx.softtek.panaderia.controller;
 
-import javax.validation.Valid;
-
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.RestController;
 
-import mx.softtek.panaderia.model.UserBean;
-
+@RestController
 public class ControllerReadUser implements IControllerReadUser {
-
+ 
+/*** 
+ * Metodo que manda a listar todos los usuarios
+ * 
+ * @return lista de todos los usuarios
+ */
 	@Override
-	public ResponseEntity<?> createUser(@Valid UserBean user) {
+	public ResponseEntity<?> createUser() {
 		// TODO Auto-generated method stub
 		return null;
 	}
