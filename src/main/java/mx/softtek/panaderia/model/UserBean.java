@@ -1,5 +1,7 @@
 package mx.softtek.panaderia.model;
 
+import java.io.Serializable;
+
 import javax.validation.constraints.NotNull;
 
 import lombok.Getter;
@@ -7,8 +9,13 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class UserBean {
+public class UserBean implements Serializable{
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -6343334793802758954L;
+
 	@NotNull
 	private String nombre;
 
