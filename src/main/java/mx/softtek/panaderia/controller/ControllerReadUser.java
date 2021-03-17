@@ -12,7 +12,7 @@ public class ControllerReadUser implements IControllerReadUser {
  * @return lista de todos los usuarios
  */
 	@Override
-	public ResponseEntity<?> createUser() {
+	public ResponseEntity<?> readUser() {
 		// TODO Auto-generated method stub
 		return null;
 	}
