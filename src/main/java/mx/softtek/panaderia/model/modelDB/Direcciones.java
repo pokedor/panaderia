@@ -26,18 +26,6 @@ public class Direcciones implements Serializable{
 	@Column(name = "direccion_id")
 	private int direccionId;
 	
-	@Column(name = "estado")
-	private String estado;
-	
-	@Column(name = "codigo_postal")
-	private String codigoPostal;
-	
-	@Column(name = "municipio")
-	private String municipio;
-	
-	@Column(name = "colonia")
-	private String colonia;
-	
 	@Column(name = "calle")
 	private	String calle;
 	
@@ -46,6 +34,18 @@ public class Direcciones implements Serializable{
 	
 	@Column(name = "numero_int")
 	private String numeroInt;
+	
+	@Column(name = "codigo_postal")
+	private String codigoPostal;
+	
+	@Column(name = "colonia")
+	private String colonia;
+	
+	@Column(name = "ciudad")
+	private String ciudad;
+	
+	@Column(name = "estado")
+	private String estado;
 	
 	@Column(name = "referencia")
 	private String referencia;
