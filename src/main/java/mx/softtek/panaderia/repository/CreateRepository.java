@@ -9,3 +9,4 @@ import mx.softtek.panaderia.model.modelDB.Usuarios;
 public interface CreateRepository extends JpaRepository<Usuarios, Long>{
 
 }
+ 

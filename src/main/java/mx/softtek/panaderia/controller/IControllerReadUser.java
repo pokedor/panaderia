@@ -20,3 +20,4 @@ public interface IControllerReadUser {
 	@GetMapping("/all")
 	 ResponseEntity<?> readUser( );
 }
+ 

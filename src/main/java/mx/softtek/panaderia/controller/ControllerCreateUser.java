@@ -25,7 +25,7 @@ public class ControllerCreateUser implements IControllerCreateUser{
 	@Override
 	public ResponseEntity<?> createUser(@Valid UserBean user) {
 		
-		
+		  
 		
 		return null;
 	}

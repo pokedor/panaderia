@@ -25,3 +25,4 @@ public class ContactoBean implements Serializable {
 	@NotNull
 	private String correo;
 }
+ 
